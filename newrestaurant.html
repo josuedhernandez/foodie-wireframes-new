@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie | Home </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="#home">Home</a>
+        <a href="userlogin.html">Login</a>
+        <a href="search.html">Search</a>
+        <a href="#about">Sign Up</a>
+        <a class="active" href="newrestaurant.html">New Restaurant</a>
+    </div>
+    <form action="/action_page.php">
+        <label for="rname">Restaurant Name:</label><br>
+        <input type="text" id="rname" name="rname"><br>
+        <label for="rrating">Restaurant Rating:</label><br>
+        <input type="text" id="rrating" name="rrating"><br>
+        <label for="fname">Meal name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Zipcode:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="browsers">Cuisine:</label><br>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="French">
+            <option value="American">
+            <option value="Mexican">
+            <option value="Asian">
+            <option value="Indian">
+        </datalist><br>
+    </form>
+</body>
+
+</html>
